@@ -4,7 +4,7 @@ WebdriverIO-v5 (Selenium - Node.js/JavaScript)
 Cucumber (v 5.x)
 
 ### Installation requirements
-Node v8.10 and above.
+`Node v8.10 and above.`
 `JDK 1.8:` Install JDK 1.8+ and make sure class path is set properly. JAVA is require to start `Selenium Server` nothing else.
 
 `Node.JS:` Install from the site - https://nodejs.org/en/.
@@ -19,7 +19,7 @@ Once installation is done - open terminal (MAC OSX) or command prompt (for windo
 
 Above command should print out the version that you have installed.
 
-Now navigate to the framework's package.json folder and run `npm install` to grab all dependencies.
+`Node modules:` Now navigate to the framework's package.json folder and run `npm install` to grab all dependencies.
 
 
 ### Run Tests
