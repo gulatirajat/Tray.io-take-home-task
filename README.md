@@ -22,7 +22,7 @@ Above command should print out the version that you have installed.
 
 
 ### Run Tests
-Navigate to the framework's root folder and run Run - `npm run test`
+Navigate to the framework's root folder and run the command - `npm run test`
 
 
 ## Regarding the Task
