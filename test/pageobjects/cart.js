@@ -36,20 +36,8 @@ class cart extends Page {
         this.checkoutBtn.click();
     }
 
-    getProductNameAndPriceCollection()
-    {
-        let productNameAndPriceCollection = '';
-        
-        this.cartItemNames.map((cartItemName, index) => {
-            productNameAndPriceCollection += (' ' + cartItemName.getText() + ' $' + this.cartItemPrices[index].getText())
-        });
-        
-        return productNameAndPriceCollection;
-    } 
-
     getProductNameAndPriceCollectionArr()
     {
-
         let productNameAndPriceCollectionArr = [];
 
         this.cartItemNames.map((cartItemName, index) => {

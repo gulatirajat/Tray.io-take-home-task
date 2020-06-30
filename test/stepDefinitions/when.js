@@ -35,9 +35,7 @@ When(/^Add the cheapest product to your basket$/, function () {
     products.addToCartLastItem();
     products.mainContentArea.waitForDisplayed();
 
-    state.itemsAddedToCart = `${state.itemsAddedToCart} ${products.lastItemName.getText()} ${products.lastItemPrice.getText()}`
     state.itemsAddedToCartArr.push(Array(products.lastItemName.getText(),products.lastItemPrice.getText()));
-    
     state.numOfItemsCart = Number(state.numOfItemsCart) + 1;
 });
 
@@ -45,9 +43,7 @@ When(/^Add the 2nd cheapest product to your basket$/, function () {
     products.addToCartSecondLastItem();
     products.mainContentArea.waitForDisplayed();
 
-    state.itemsAddedToCart = `${state.itemsAddedToCart} ${products.secondlastItemName.getText()} ${products.secondlastItemPrice.getText()}`
     state.itemsAddedToCartArr.push(Array(products.secondlastItemName.getText(),products.secondlastItemPrice.getText()));
-    
     state.numOfItemsCart = Number(state.numOfItemsCart) + 1;
 });
 
@@ -67,9 +63,8 @@ When(/^Remove the cheapest product from your basket$/, function () {
     // ASSUMPTION - 1ST PRODUCT IS THE CHEAPEST PRODUCT IN THE BASKET DUE TO PREVIOUS STEPS
     let removedItemNameAndPrice = cart.removeFirstItemFromCart();
     cart.mainContentArea.waitForDisplayed();
-    state.itemsAddedToCart = (state.itemsAddedToCart).replace(removedItemNameAndPrice,'');
-    state.itemsAddedToCartArr.shift();
 
+    state.itemsAddedToCartArr.shift();
     state.numOfItemsCart = Number(state.numOfItemsCart) - 1;
 });
 

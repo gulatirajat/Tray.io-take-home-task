@@ -7,7 +7,11 @@ class yourInformation extends Page {
     */
 
     get subheader()  { return $(".subheader"); }
+    get firstName()  { return $("#first-name"); }
+    get lastName()  { return $("#last-name"); }
+    get postalCode()  { return $("#postal-code"); }
     get mainContentArea() { return $("#contents_wrapper"); }
+
 
     getMainSectionHeadingText()
     {

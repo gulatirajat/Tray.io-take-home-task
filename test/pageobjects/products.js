@@ -25,7 +25,6 @@ class products extends Page {
 
     selectSortOrder(orderCriteria)
     {
-        // Price (high to low)
         this.sortDropDown.waitForEnabled();
         this.sortDropDown.selectByVisibleText(orderCriteria);
     }
@@ -60,13 +59,13 @@ class products extends Page {
 
     getNamesWithPrices()
     {
+        
         let nameswithPrices = [];
-        for (let i = 0; i < this.inventoryItemNames.length; i++)
-        {
-            nameswithPrices[i] = [];
-            nameswithPrices[i][0] = this.inventoryItemNames[i].getText();
-            nameswithPrices[i][1] = this.inventoryItemPrices[i].getText().replace('$','');
-        }
+
+        this.inventoryItemNames.map((inventoryItemName, index) => {
+            nameswithPrices.push(Array(inventoryItemName.getText(), this.inventoryItemPrices[index].getText().replace('$','')))
+        });
+
         return nameswithPrices;
     }
 
