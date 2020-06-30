@@ -1,4 +1,4 @@
-### WebdriverIO-v5 with Cucumber BDD
+## WebdriverIO with Cucumber BDD
 This repository is based on the following components:
 WebdriverIO-v5 (Selenium - Node.js/JavaScript)
 Cucumber (v 5.x)
@@ -26,7 +26,7 @@ Now navigate to the framework's package.json folder and run `npm install` to gra
 Navigate to the framework's root folder and run Run `npm run test`
 
 
-# Regarding the Task
+## Regarding the Task
 1. Basic structure is in place and can be scalled for more tests/validations.
 2. The modular structure allows for reusability and easy maintainability.
 3. Generic approach used for validations rather than fixed/hardcoded.
