@@ -1,7 +1,8 @@
 ## WebdriverIO with Cucumber BDD
 This repository is based on a POM based webdriverIO boiletplate with the following components:
-WebdriverIO-v5 (Selenium - Node.js/JavaScript)
-Cucumber (v 5.x)
+- WebdriverIO-v5 (Selenium - Node.js/JavaScript)
+- Cucumber (v 5.x)
+
 
 ### Installation requirements
 `JDK 1.8:` Install JDK 1.8+ and make sure class path is set properly. JAVA is require to start `Selenium Server` nothing else.
