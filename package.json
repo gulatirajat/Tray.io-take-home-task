@@ -21,10 +21,10 @@
 		"webdriver",
 		"automation"
 	],
-	"author": "Amiya Pattanaik <pattnaik_amiya@yahoo.com>",
+	"author": "Rajat Gulati",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/amiya-pattnaik/webdriverIO-with-cucumberBDD.git"
+		"url": "https://github.com/gulatirajat/Tray.io-take-home-task.git"
 	},
 	"license": "ISC",
 	"dependencies": {

@@ -1,5 +1,5 @@
 ## WebdriverIO with Cucumber BDD
-This repository is based on the following components:
+This repository is based on a POM based webdriverIO boiletplate with the following components:
 WebdriverIO-v5 (Selenium - Node.js/JavaScript)
 Cucumber (v 5.x)
 
