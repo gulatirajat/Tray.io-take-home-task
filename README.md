@@ -5,9 +5,9 @@ This repository is based on a POM based webdriverIO boiletplate with the followi
 
 
 ### Installation requirements
-`JDK 1.8:` Install JDK 1.8+ and make sure class path is set properly. JAVA is require to start `Selenium Server` nothing else.
+- `JDK 1.8:` Install JDK 1.8+ and make sure class path is set properly. JAVA is require to start `Selenium Server` nothing else.
 
-`Node.JS:` (Node v8.10 and above.) Install from the site - https://nodejs.org/en/.
+- `Node.JS:` (Node v8.10 and above.) Install from the site - https://nodejs.org/en/.
 Take the LTS version based on your Operating system.
 Please make sure you install NodeJS globally.
 If you have nvm installed globally, then run `nvm install` to get the latest version of node specified in the`.nvmrc` file [here](/.nvmrc).  If you don't use nvm, be sure that you are using a compatible version. Further details on nvm can be found on the official [github page](https://github.com/creationix/nvm). MAC OSX users are best suited to install nvm with homebrew `brew install nvm`.
@@ -19,7 +19,7 @@ Once installation is done - open terminal (MAC OSX) or command prompt (for windo
 
 Above command should print out the version that you have installed.
 
-`Node modules:` Now navigate to the framework's package.json folder and run `npm install` to grab all dependencies.
+- `Node modules:` Now navigate to the framework's package.json folder and run `npm install` to grab all dependencies.
 
 
 ### Run Tests
